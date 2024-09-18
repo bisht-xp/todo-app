@@ -2,6 +2,11 @@
 
 This project is a simple full-stack to-do list web app with CRUD functionality. It includes both frontend (Next.js) and backend (Node.js + Express with Prisma ORM) components. The backend uses PostgreSQL as the database, and the frontend is styled using Tailwind CSS with ShadCN for UI components.
 
+## Explanation
+To build this simple to-do list app, I utilized Next.js for the frontend and Node.js for the backend. The backend provides a RESTful API to interact with a PostgreSQL database, where I store tasks with CRUD functionality. The frontend uses Daisyui for UI components, making the interface clean and responsive.
+
+I implemented the backend using Prisma ORM with PostgreSQL to manage tasks. Prisma provides an intuitive interface for interacting with the database and generating types for TypeScript support. The frontend is built with Next.js, where I created responsive views for displaying, adding, and managing tasks. For UI components, I used ShadCN, ensuring a clean and user-friendly design. The app is deployed on Vercel, and all environment configurations, including PostgreSQL connection, are managed using .env files.
+
 ## Table of Contents
 1. [Tech Stack](#tech-stack)
 2. [Installation](#installation)
